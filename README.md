@@ -10,5 +10,6 @@ I got bored in school, what can I say?
 ### Finished Updates
 
 - **19 January, 2017**
+  - Organization of Filesystem
   - JavaScript Versions
   - Repository Creation

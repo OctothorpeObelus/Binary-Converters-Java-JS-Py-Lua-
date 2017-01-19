@@ -9,6 +9,6 @@ I got bored in school, what can I say?
 
 ### Finished Updates
 
--**19 January, 2017**
+- **19 January, 2017**
   - JavaScript Versions
   - Repository Creation

@@ -3,8 +3,8 @@ I got bored in school, what can I say?
 
 ### Upcoming Updates
 - Java Versions
-- Lua Versions
-- Python Versions
+- Lua Versions (1/4) (Untested)
+- Python Versions (1/4)
 - Code Optimization
 
 ### Finished Updates

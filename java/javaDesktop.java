@@ -63,7 +63,7 @@ gbcFrame.gridheight = 2;
 gbcFrame.fill = GridBagConstraints.BOTH;
 gbcFrame.weightx = 1;
 gbcFrame.weighty = 1;
-gbcFrame.anchor = GridBagConstraints.NORTH;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
 gbFrame.setConstraints( lbDecimal_Binary_Out, gbcFrame );
 pnFrame.add( lbDecimal_Binary_Out );
 
@@ -75,9 +75,35 @@ gbcFrame.gridheight = 2;
 gbcFrame.fill = GridBagConstraints.BOTH;
 gbcFrame.weightx = 1;
 gbcFrame.weighty = 0;
-gbcFrame.anchor = GridBagConstraints.NORTH;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
 gbFrame.setConstraints( tfBinaryDecimal, gbcFrame );
 pnFrame.add( tfBinaryDecimal );
+
+tfTextBinary = new JTextField( );
+gbcFrame.gridx = 1;
+gbcFrame.gridy = 12;
+gbcFrame.gridwidth = 6;
+gbcFrame.gridheight = 2;
+gbcFrame.fill = GridBagConstraints.BOTH;
+gbcFrame.weightx = 1;
+gbcFrame.weighty = 0;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
+gbFrame.setConstraints( tfTextBinary, gbcFrame );
+pnFrame.add( tfTextBinary );
+
+tfBinaryText = new JTextField( );
+gbcFrame.gridx = 1;
+gbcFrame.gridy = 16;
+gbcFrame.gridwidth = 6;
+gbcFrame.gridheight = 2;
+gbcFrame.fill = GridBagConstraints.BOTH;
+gbcFrame.weightx = 1;
+gbcFrame.weighty = 0;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
+gbFrame.setConstraints( tfBinaryText, gbcFrame );
+pnFrame.add( tfBinaryText );
+
+//---------------------------------------------------------------------------------------------------
 
 lbBinary_Decimal_Out = new JLabel( ""  );
 gbcFrame.gridx = 13;
@@ -87,9 +113,33 @@ gbcFrame.gridheight = 2;
 gbcFrame.fill = GridBagConstraints.BOTH;
 gbcFrame.weightx = 1;
 gbcFrame.weighty = 1;
-gbcFrame.anchor = GridBagConstraints.NORTH;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
 gbFrame.setConstraints( lbBinary_Decimal_Out, gbcFrame );
 pnFrame.add( lbBinary_Decimal_Out );
+
+lbText_Binary_Out = new JLabel( ""  );
+gbcFrame.gridx = 13;
+gbcFrame.gridy = 12;
+gbcFrame.gridwidth = 6;
+gbcFrame.gridheight = 2;
+gbcFrame.fill = GridBagConstraints.BOTH;
+gbcFrame.weightx = 1;
+gbcFrame.weighty = 1;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
+gbFrame.setConstraints( lbText_Binary_Out, gbcFrame );
+pnFrame.add( lbText_Binary_Out );
+
+lbBinary_Text_Out = new JLabel( ""  );
+gbcFrame.gridx = 13;
+gbcFrame.gridy = 16;
+gbcFrame.gridwidth = 6;
+gbcFrame.gridheight = 2;
+gbcFrame.fill = GridBagConstraints.BOTH;
+gbcFrame.weightx = 1;
+gbcFrame.weighty = 1;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
+gbFrame.setConstraints( lbBinary_Text_Out, gbcFrame );
+pnFrame.add( lbBinary_Text_Out );
 
 btDecimalBinary_Submit = new JButton( "Decimal - Binary"  );
 gbcFrame.gridx = 8;
@@ -99,7 +149,7 @@ gbcFrame.gridheight = 2;
 gbcFrame.fill = GridBagConstraints.BOTH;
 gbcFrame.weightx = 1;
 gbcFrame.weighty = 0;
-gbcFrame.anchor = GridBagConstraints.NORTH;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
 gbFrame.setConstraints( btDecimalBinary_Submit, gbcFrame );
 pnFrame.add( btDecimalBinary_Submit );
 
@@ -111,7 +161,7 @@ gbcFrame.gridheight = 2;
 gbcFrame.fill = GridBagConstraints.BOTH;
 gbcFrame.weightx = 1;
 gbcFrame.weighty = 0;
-gbcFrame.anchor = GridBagConstraints.NORTH;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
 gbFrame.setConstraints( btBinaryDecimal_Submit, gbcFrame );
 pnFrame.add( btBinaryDecimal_Submit );
 
@@ -123,7 +173,7 @@ gbcFrame.gridheight = 2;
 gbcFrame.fill = GridBagConstraints.BOTH;
 gbcFrame.weightx = 1;
 gbcFrame.weighty = 0;
-gbcFrame.anchor = GridBagConstraints.NORTH;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
 gbFrame.setConstraints( btTextBinary_Submit, gbcFrame );
 pnFrame.add( btTextBinary_Submit );
 
@@ -135,6 +185,6 @@ gbcFrame.gridheight = 2;
 gbcFrame.fill = GridBagConstraints.BOTH;
 gbcFrame.weightx = 1;
 gbcFrame.weighty = 0;
-gbcFrame.anchor = GridBagConstraints.NORTH;
+gbcFrame.anchor = GridBagConstraints.NORTHWEST;
 gbFrame.setConstraints( btBinaryText_Submit, gbcFrame );
 pnFrame.add( btBinaryText_Submit );

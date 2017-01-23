@@ -9,6 +9,10 @@ I got bored in school, what can I say?
 
 ### Finished Updates
 
+- **23 January, 2017**
+  - Uploaded **WIP** Decimal-Binary.java
+  - Uploaded finished *JavaDesktop* GUI, not programmed
+  
 - **19 January, 2017**
   - Organization of Filesystem
   - JavaScript Versions

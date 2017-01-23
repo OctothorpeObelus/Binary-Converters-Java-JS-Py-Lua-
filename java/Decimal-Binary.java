@@ -12,12 +12,12 @@ class Main{
          Scanner scan = new Scanner(System.in);
          int decimal = scan.nextInt();
          String binary = "";
-         int[] bytes = { 128, 64, 32, 16, 8, 4, 2, 1 };
+         int[] bits = { 128, 64, 32, 16, 8, 4, 2, 1 };
          while ( decimal > 0 ) {
          for (int i = 0; i < bytes.length; i++) {
            if (decimal < 256) {
-             if (decimal >= bytes[i]) {
-               decimal -= bytes[i];
+             if (decimal >= bits[i]) {
+               decimal -= bits[i];
                  binary += "" + 1 + "";
              } else {
                  binary +="" + 0 + "";

@@ -27,6 +27,8 @@ GridBagLayout gbFrame = new GridBagLayout();
 GridBagConstraints gbcFrame = new GridBagConstraints();
 pnFrame.setLayout( gbFrame );
 
+//---------------------------------------------------------------------------------------------------
+
 tfDecimalBox = new JTextField( );
 gbcFrame.gridx = 1;
 gbcFrame.gridy = 4;
@@ -140,6 +142,8 @@ gbcFrame.weighty = 1;
 gbcFrame.anchor = GridBagConstraints.NORTHWEST;
 gbFrame.setConstraints( lbBinary_Text_Out, gbcFrame );
 pnFrame.add( lbBinary_Text_Out );
+
+//---------------------------------------------------------------------------------------------------
 
 btDecimalBinary_Submit = new JButton( "Decimal - Binary"  );
 gbcFrame.gridx = 8;

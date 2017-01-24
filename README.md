@@ -12,7 +12,10 @@ I got bored in school, what can I say?
 - **23 January, 2017**
   - Uploaded **WIP** Decimal-Binary.java
   - Uploaded finished *JavaDesktop* GUI, not programmed
-  
+
+- **21 January, 2017**
+  - Uploaded Decimal-Binary.py
+
 - **19 January, 2017**
   - Organization of Filesystem
   - JavaScript Versions

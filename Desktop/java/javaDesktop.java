@@ -9,8 +9,10 @@ import javax.swing.JTextField;
 import javax.swing.JToolBar;
 import javax.swing.JButton;
 import javax.swing.JLabel;
+import java.awt.*; 
+import java.applet.*;
 
-class Main{
+public class Main extends Applet{
     
      JPanel pnFrame;
      JTextField tfDecimalBox;

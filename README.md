@@ -2,7 +2,7 @@
 I got bored in school, what can I say?
 
 ### Upcoming Updates
-- Java Versions
+- Java Versions (2/4) (Broken/WIP)
 - Lua Versions (1/4) (Untested)
 - Python Versions (1/4)
 - Code Optimization

@@ -57,3 +57,4 @@ for ( var i = 0; i < process.length; i++ ) {
     }
 }
 alert(text)
+document.write(text)

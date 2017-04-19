@@ -18,4 +18,5 @@ while ( decimal > 0 ) {
         }
     }
     alert(binary)
+    document.write(binary)
 }

@@ -26,3 +26,4 @@ while ( process[i] > 0 ) {
 }
 }
 alert(binary)
+document.write(binary)

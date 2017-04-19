@@ -49,3 +49,4 @@ for ( var i = 0; i < process.length; i++ ) {
     }
 }
 alert(process)
+document.write(process)

@@ -9,6 +9,9 @@ I got bored in school, what can I say?
 
 ### Finished Updates
 
+- **19 April, 2017**
+  - Added `document.write()` to all .js documents for use in online IDE's (Remove these lines if not being used in an online IDE)
+
 - **23 January, 2017**
   - Uploaded **WIP** Decimal-Binary.java
   - Uploaded finished *JavaDesktop* GUI, not programmed

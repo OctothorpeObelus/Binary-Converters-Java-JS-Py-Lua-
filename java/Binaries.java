@@ -15,7 +15,7 @@ public class Binaries {
 			int decimal = number;
         		String binary = "";
          		while ( decimal > 0 ) {
-         			for (int i = 0; i < bytes.length; i++) {
+         			for (int i = 0; i < bits.length; i++) {
            				if (decimal < 256) {
              					if (decimal >= bits[i]) {
                						decimal -= bits[i];
@@ -40,6 +40,8 @@ public class Binaries {
 	
 	public String Binary(String words) {
 		boolean binary;
+		int sum;
+		ArrayList numbers = new ArrayList();
 		
 		for (String b: words) {
 			if (words.charAt(b) != 1 || words.charAt(b) != 0) {
@@ -49,17 +51,25 @@ public class Binaries {
 			}
 			
 			if (!binary) {
-				//Needs function to convert text to binary
+				//Needs function to convert text to binary (toDigits())
 				
 			} else if (binary) {
-				//Needs function to convert binary to text
-				int step = 0;
-				
+				//Function to convert binary to text
 				for (int i = 0; i < words.length/8; i++) {
-					for (int j = 0 + (step * 8); j < (words.length/8)+(step*8); j++) {
-						
+					for (int j = 0 + (i * 8); j < (words.length/8)+(i * 8); j++) {
+						if (words.charAt(j) == 1) {
+							sum += bits[j];
+						}
+						if (j == ((words.length/8) + (i * 8))-1) {
+							numbers.add(sum);
+							sum = 0;
+						}
 					}
 				}
+				for (int n: numbers) {
+					numbers.set(n,toChars(numbers.get(n)));
+				}
+				return numbers;
 			} else {
 				return "Something went wrong. That's all we know. :(";
 			}

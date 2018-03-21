@@ -5,9 +5,9 @@ from sys import version_info
 
 py3 = version_info[0] > 2 
 if py3:
-    decimal = int(input("Enter a positive number."))
+    decimal = int(input("Enter a positive number: "))
 else:
-    decimal = int(raw_input("Enter a positive number."))
+    decimal = int(raw_input("Enter a positive number: "))
 
 binary = "";
 bits = [ 128, 64, 32, 16, 8, 4, 2, 1 ]
@@ -22,4 +22,4 @@ while ( decimal > 0 ):
         else:
             decimal = decimal - 255
             binary = binary + "11111111 "
-    print binary
+    print(binary)
